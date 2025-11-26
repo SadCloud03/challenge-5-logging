@@ -7,10 +7,8 @@ tokens_servicios = {
 
 app = Flask(__name__)
 
-DB_Name = "data_base_logs.db"
-
 @app.route('/logs', methods=['POST'])
-def get_logs():
+def post_logs_get():
 
     token = request.headers.get("Authorization")
     if token not in tokens_servicios:
@@ -37,6 +35,11 @@ def get_logs():
             resultado.append({"status": "error_val", "error": msq, "log": log })
     
     return jsonify(resultado), 200
+
+# @app.route('/logs/consultar', methods=['GET'])
+# def mostrar_logs():
+
+
 
 
 if __name__ == "__main__":
