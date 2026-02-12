@@ -3,8 +3,6 @@ from funciones import (
     configuracion_inicial_logs, 
     bucle_emails_service
 )
-from pseudoDB import lista_gmails
-import requests
 import logging
 import threading
 
@@ -23,9 +21,9 @@ def main():
     hilo.start()
     
     while True:
-        seguir = input("escribi algo") # si funciona pero es increiblemente uncany
-        if seguir:
-            logger.info("sigue el proceso")
+        info = input("escribi algo") # si funciona pero es increiblemente uncany
+        if info:
+            logger.info(info)
         else:
             break
     
