@@ -5,8 +5,8 @@ import pathlib
 import json
 from time import sleep
 
-def configuracion_inicial_logs():
-    config_path = pathlib.Path("config_logs_email/config_email.json")
+def configuracion_inicial_logs_email():
+    config_path = pathlib.Path("config_email.json")
     with open(config_path) as config_p:
         config = json.load(config_p)
     logging.config.dictConfig(config=config)
