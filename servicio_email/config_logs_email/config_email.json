@@ -6,6 +6,9 @@
         },
         "simple" : {
             "format" : "%(levelname)s : %(message)s"
+        },
+        "json" : {
+            "()" : "json_formatter.JsonFormater"
         }
     },
     "handlers" : {
@@ -18,10 +21,16 @@
         "file" : {
             "class" : "logging.handlers.RotatingFileHandler",
             "level" : "DEBUG",
-            "formatter" : "detail",
+            "formatter" : "json",
             "filename" : "logs_email/logs_main.log",
             "maxBytes" : 10000,
             "backupCount" : 2
+        },
+        "http" : {
+            "()" : "http_handler.HTTPLogHandler",
+            "level" : "INFO",
+            "formatter" : "json",
+            "url" : "http://127.0.0.1:8000/logs"
         }
     },
     "loggers" : {
@@ -29,7 +38,8 @@
             "level" : "DEBUG",
             "handlers" : [
                 "stderr",
-                "file"
+                "file",
+                "http"
             ]
         }
     }
