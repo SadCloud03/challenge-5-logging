@@ -1,10 +1,20 @@
-from fastapi import FastAPI, Request
+import requests
 
-app = FastAPI()
+url = "http://127.0.0.1:8000/logs"
 
-@app.post("/logs")
-async def receive_logs(request : Request):
-    data = await request.json()
-    print(type(data))
-    return {"status" : "ok"}
+headers = {
+    "Authorization": "Bearer abc123-super-token"
+}
 
+payload = {
+    "level": "INFO",
+    "message": "email enviado",
+    "extra": {
+        "user": "test@gmail.com",
+        "latency": 213
+    }
+}
+
+r = requests.post(url, json=payload, headers=headers)
+
+print(r.status_code, r.text)
