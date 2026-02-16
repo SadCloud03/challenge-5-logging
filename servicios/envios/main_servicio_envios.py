@@ -19,11 +19,15 @@ def main():
     hilo.start()
 
     while True:
-        info = input("dale a enter para cortar\n")
-        if info:
-            logger.info("info")
-        else:
-            break 
+        try:
+            info = input("para conrtar ctrol+c, para introducir tu propio info escribe\n") # si funciona pero es increiblemente uncany
+            if info:
+                logger.info(info)
+            else:
+                break
+        except KeyboardInterrupt:
+            logger.info("envios service stopped by user")
+            break
 
 if __name__ == "__main__":
     main()
