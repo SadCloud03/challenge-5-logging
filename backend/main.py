@@ -10,7 +10,6 @@ from datetime import datetime
 
 app = FastAPI()
 
-
 @app.on_event("startup")
 async def startup():
     async with engine.begin() as conn:
