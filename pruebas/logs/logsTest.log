@@ -1,0 +1,9 @@
+2026-02-11 12:36:45,154 | DEBUG | root | debug message
+2026-02-11 12:36:45,155 | INFO | root | info message
+2026-02-11 12:36:45,155 | WARNING | root | warning message
+2026-02-11 12:36:45,155 | ERROR | root | exception message
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Penguin Academy (the huddle)\challenge 5 (the huddle) (El pinguino que sabia demasiado)\pruebas\logsTest.py", line 57, in main
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero

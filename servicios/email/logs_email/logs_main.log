@@ -1,0 +1,2 @@
+{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
+{"level": "INFO", "message": "email service stopped by user", "extra": {"taskName": null}}

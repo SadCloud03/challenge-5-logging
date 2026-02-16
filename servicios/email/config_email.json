@@ -1,0 +1,48 @@
+{
+    "version" : 1,
+    "formatters" : {
+        "detail" : {
+            "format" : "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
+        },
+        "simple" : {
+            "format" : "%(levelname)s : %(message)s"
+        },
+        "json" : {
+            "()" : "logging_setup.json_formatter.JsonFormatter"
+        }
+    },
+    "handlers" : {
+        "stderr" : {
+            "class" : "logging.StreamHandler",
+            "level" : "WARNING",
+            "formatter" : "simple",
+            "stream" : "ext://sys.stderr"
+        },
+        "file" : {
+            "class" : "logging.handlers.RotatingFileHandler",
+            "level" : "DEBUG",
+            "formatter" : "json",
+            "filename" : "logs_email/logs_main.log",
+            "maxBytes" : 10000,
+            "backupCount" : 2
+        },
+        "http" : {
+            "()" : "logging_setup.http_handler.HTTPLogHandler",
+            "level" : "INFO",
+            "formatter" : "json",
+            "url" : "http://127.0.0.1:8000/logs",
+            "service_id" : 1,
+            "token" : "abc123-super-token"
+        }
+    },
+    "loggers" : {
+        "email" : {
+            "level" : "DEBUG",
+            "handlers" : [
+                "stderr",
+                "file",
+                "http"
+            ]
+        }
+    }
+}
