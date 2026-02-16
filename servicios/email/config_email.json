@@ -30,7 +30,9 @@
             "()" : "logging_setup.http_handler.HTTPLogHandler",
             "level" : "INFO",
             "formatter" : "json",
-            "url" : "http://127.0.0.1:8000/logs"
+            "url" : "http://127.0.0.1:8000/logs",
+            "service_id" : 1,
+            "token" : "abc123-super-token"
         }
     },
     "loggers" : {

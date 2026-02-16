@@ -1,3 +1,2 @@
-{"timestamp": "2026-02-12T17:25:14.561419+00:00", "level": "ERROR", "logger": "email", "message": "unexpected error on sending email....", "module": "funciones_email", "function": "bucle_emails_service", "line": 24, "thread": "Thread-1 (bucle_emails_service)"}
-{"timestamp": "2026-02-12T17:25:16.582464+00:00", "level": "ERROR", "logger": "email", "message": "unexpected error on sending email....", "module": "funciones_email", "function": "bucle_emails_service", "line": 24, "thread": "Thread-1 (bucle_emails_service)"}
-{"timestamp": "2026-02-12T17:25:18.586507+00:00", "level": "INFO", "logger": "email", "message": "successfull email send..", "module": "funciones_email", "function": "bucle_emails_service", "line": 20, "thread": "Thread-1 (bucle_emails_service)"}
+{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
+{"level": "INFO", "message": "email service stopped by user", "extra": {"taskName": null}}

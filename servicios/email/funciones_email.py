@@ -23,7 +23,7 @@ def bucle_emails_service(logger):
             else:
                 logger.error("unexpected error on sending email....")
             sleep(2)
-        except:
-            logger.exception("unexpected error....")
-            break
+        except Exception:
+            logger.exception("unexpected error in email service loop")
+            pass
         
