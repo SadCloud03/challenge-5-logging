@@ -5,9 +5,13 @@ from datetime import datetime, timezone
 class JsonFormatter(logging.Formatter):
     def format(self, record):
         # Campos básicos
+
+        dt = datetime.fromtimestamp(record.created, tz=timezone.utc)
+
         log_record = {
             "level": record.levelname,
             "message": record.getMessage(),
+            "timestamp": dt.isoformat(),
         }
 
         # Extraer campos personalizados (el 'extra')

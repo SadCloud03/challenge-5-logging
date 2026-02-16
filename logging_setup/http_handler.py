@@ -17,7 +17,9 @@ class HTTPLogHandler(logging.Handler):
                 "service_id": int(self.service_id),
                 "level": formatted_data.get("level"),
                 "message": formatted_data.get("message"),
-                "extra": formatted_data.get("extra")
+                "extra": {
+                    "timestamp" : formatted_data.get("timestamp"),
+                    "details" : formatted_data.get("extra")}
             }
 
             # AÑADIMOS EL HEADER DE AUTHORIZATION

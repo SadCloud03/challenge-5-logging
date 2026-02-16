@@ -1,55 +1,32 @@
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "INFO", "message": "email service stopped by user", "extra": {"taskName": null}}
-{"level": "INFO", "message": "successfull email send..", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "INFO", "message": "successfull email send..", "extra": {"taskName": null}}
-{"level": "WARNING", "message": "email send with delay...", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "INFO", "message": "successfull email send..", "extra": {"taskName": null}}
-{"level": "WARNING", "message": "email send with delay...", "extra": {"taskName": null}}
-{"level": "WARNING", "message": "email send with delay...", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "INFO", "message": "successfull email send..", "extra": {"taskName": null}}
-{"level": "INFO", "message": "successfull email send..", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "INFO", "message": "successfull email send..", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "WARNING", "message": "email send with delay...", "extra": {"taskName": null}}
-{"level": "INFO", "message": "successfull email send..", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "INFO", "message": "successfull email send..", "extra": {"taskName": null}}
-{"level": "WARNING", "message": "email send with delay...", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "WARNING", "message": "email send with delay...", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "WARNING", "message": "email send with delay...", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "INFO", "message": "successfull email send..", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "WARNING", "message": "email send with delay...", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "WARNING", "message": "email send with delay...", "extra": {"taskName": null}}
-{"level": "WARNING", "message": "email send with delay...", "extra": {"taskName": null}}
-{"level": "INFO", "message": "successfull email send..", "extra": {"taskName": null}}
-{"level": "WARNING", "message": "email send with delay...", "extra": {"taskName": null}}
-{"level": "INFO", "message": "successfull email send..", "extra": {"taskName": null}}
-{"level": "WARNING", "message": "email send with delay...", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "INFO", "message": "successfull email send..", "extra": {"taskName": null}}
-{"level": "WARNING", "message": "email send with delay...", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "ERROR", "message": "unexpected error on sending email....", "extra": {"taskName": null}}
-{"level": "INFO", "message": "email service stopped by user", "extra": {"taskName": null}}
+{"level": "WARNING", "message": "email send with delay...", "timestamp": "2026-02-16T23:40:35.354243+00:00", "extra": {"taskName": null}}
+{"level": "ERROR", "message": "unexpected error on sending email....", "timestamp": "2026-02-16T23:40:37.404193+00:00", "extra": {"taskName": null}}
+{"level": "ERROR", "message": "unexpected error on sending email....", "timestamp": "2026-02-16T23:40:39.429647+00:00", "extra": {"taskName": null}}
+{"level": "INFO", "message": "successfull email send..", "timestamp": "2026-02-16T23:40:41.475249+00:00", "extra": {"taskName": null}}
+{"level": "WARNING", "message": "email send with delay...", "timestamp": "2026-02-16T23:40:43.516341+00:00", "extra": {"taskName": null}}
+{"level": "WARNING", "message": "email send with delay...", "timestamp": "2026-02-16T23:40:45.531101+00:00", "extra": {"taskName": null}}
+{"level": "ERROR", "message": "unexpected error on sending email....", "timestamp": "2026-02-16T23:40:47.577666+00:00", "extra": {"taskName": null}}
+{"level": "WARNING", "message": "email send with delay...", "timestamp": "2026-02-16T23:40:49.635324+00:00", "extra": {"taskName": null}}
+{"level": "ERROR", "message": "unexpected error on sending email....", "timestamp": "2026-02-16T23:40:51.688031+00:00", "extra": {"taskName": null}}
+{"level": "WARNING", "message": "email send with delay...", "timestamp": "2026-02-16T23:40:53.747287+00:00", "extra": {"taskName": null}}
+{"level": "INFO", "message": "successfull email send..", "timestamp": "2026-02-16T23:40:55.794256+00:00", "extra": {"taskName": null}}
+{"level": "ERROR", "message": "unexpected error on sending email....", "timestamp": "2026-02-16T23:40:57.817725+00:00", "extra": {"taskName": null}}
+{"level": "WARNING", "message": "email send with delay...", "timestamp": "2026-02-16T23:40:59.866895+00:00", "extra": {"taskName": null}}
+{"level": "WARNING", "message": "email send with delay...", "timestamp": "2026-02-16T23:41:01.907057+00:00", "extra": {"taskName": null}}
+{"level": "INFO", "message": "successfull email send..", "timestamp": "2026-02-16T23:41:03.957413+00:00", "extra": {"taskName": null}}
+{"level": "ERROR", "message": "unexpected error on sending email....", "timestamp": "2026-02-16T23:41:05.971903+00:00", "extra": {"taskName": null}}
+{"level": "WARNING", "message": "email send with delay...", "timestamp": "2026-02-16T23:41:08.032191+00:00", "extra": {"taskName": null}}
+{"level": "INFO", "message": "successfull email send..", "timestamp": "2026-02-16T23:41:10.112900+00:00", "extra": {"taskName": null}}
+{"level": "WARNING", "message": "email send with delay...", "timestamp": "2026-02-16T23:41:12.154286+00:00", "extra": {"taskName": null}}
+{"level": "ERROR", "message": "unexpected error on sending email....", "timestamp": "2026-02-16T23:41:14.175834+00:00", "extra": {"taskName": null}}
+{"level": "INFO", "message": "successfull email send..", "timestamp": "2026-02-16T23:41:16.212817+00:00", "extra": {"taskName": null}}
+{"level": "ERROR", "message": "unexpected error on sending email....", "timestamp": "2026-02-16T23:41:18.237021+00:00", "extra": {"taskName": null}}
+{"level": "WARNING", "message": "email send with delay...", "timestamp": "2026-02-16T23:41:20.279840+00:00", "extra": {"taskName": null}}
+{"level": "WARNING", "message": "email send with delay...", "timestamp": "2026-02-16T23:41:22.306476+00:00", "extra": {"taskName": null}}
+{"level": "INFO", "message": "successfull email send..", "timestamp": "2026-02-16T23:41:24.317852+00:00", "extra": {"taskName": null}}
+{"level": "INFO", "message": "successfull email send..", "timestamp": "2026-02-16T23:41:26.367654+00:00", "extra": {"taskName": null}}
+{"level": "INFO", "message": "successfull email send..", "timestamp": "2026-02-16T23:41:28.425951+00:00", "extra": {"taskName": null}}
+{"level": "INFO", "message": "successfull email send..", "timestamp": "2026-02-16T23:41:30.470189+00:00", "extra": {"taskName": null}}
+{"level": "ERROR", "message": "unexpected error on sending email....", "timestamp": "2026-02-16T23:41:32.481532+00:00", "extra": {"taskName": null}}
+{"level": "WARNING", "message": "email send with delay...", "timestamp": "2026-02-16T23:41:34.495588+00:00", "extra": {"taskName": null}}
+{"level": "ERROR", "message": "unexpected error on sending email....", "timestamp": "2026-02-16T23:41:36.509952+00:00", "extra": {"taskName": null}}
+{"level": "INFO", "message": "email service stopped by user", "timestamp": "2026-02-16T23:41:38.067932+00:00", "extra": {"taskName": null}}
